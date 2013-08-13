@@ -114,4 +114,4 @@ function $UrlRouterProvider(  $urlMatcherFactory) {
     }];
 }
 
-angular.module('ui.router').provider('$urlRouter', $UrlRouterProvider);
+angular.module('ui.state.router').provider('$urlRouter', $UrlRouterProvider);

@@ -99,7 +99,7 @@ describe("urlMatcherFactory", function () {
   
   var $umf;
 
-  beforeEach(module('ui.util'));
+  beforeEach(module('ui.state.util'));
   beforeEach(inject(function($urlMatcherFactory) {
     $umf = $urlMatcherFactory;
   }));

@@ -3,7 +3,7 @@ describe("UrlRouter", function () {
   var $urp, $ur, location, match, scope;
 
   beforeEach(function() {
-    angular.module('ui.router.test', function() {}).config(function ($urlRouterProvider) {
+    angular.module('ui.state.router.test', function() {}).config(function ($urlRouterProvider) {
       $urp = $urlRouterProvider;
 
       $urp.rule(function ($injector, $location) {
@@ -17,7 +17,7 @@ describe("UrlRouter", function () {
       });
     });
 
-    module('ui.router', 'ui.router.test');
+    module('ui.state.router', 'ui.state.router.test');
 
     inject(function($rootScope, $location, $injector) {
       scope = $rootScope.$new();

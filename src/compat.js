@@ -79,6 +79,6 @@ function $RouteProvider(  $stateProvider,    $urlRouterProvider) {
   }
 }
 
-angular.module('ui.compat')
+angular.module('ui.state.compat')
   .provider('$route', $RouteProvider)
   .directive('ngView', $ViewDirective);
