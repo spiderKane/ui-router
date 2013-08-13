@@ -1,6 +1,6 @@
 describe('uiStateRef', function() {
 
-  beforeEach(module('ui.state'));
+  beforeEach(module('ui.router'));
 
   beforeEach(module(function($stateProvider) {
     $stateProvider.state('index', {
